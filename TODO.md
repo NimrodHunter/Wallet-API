@@ -1,0 +1,26 @@
+# TODO 
+
+- general
+    - [FIXED] lint result: Parsing error: 'import' and 'export' may appear only with 'sourceType: module'?
+    	- for now just added `sourceType: module` to .eslintrc. what is the right way to solve this?
+    - babel warnings on docker build?
+    - add /v1 to api path?
+    - should we use something like swagger?
+    - update readme builder example suitable for backend
+- routing
+    - continue using joi-router or switch to koa-router?
+- error handling
+    - add known errors to boom
+    - fix handled vs unhandled
+    - right now error handling is within routes - for api boilerplate should it move outside?
+    - add logging/notifications?
+- security
+    - auth0 integration
+    - snyk
+	- koa-helmet?
+	- owasp checklist
+- logging
+    - override console.log?
+    - winston/morgan/bunyan
+    - koa-logger
+    - integration to GAE or equivalent
